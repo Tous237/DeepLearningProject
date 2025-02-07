@@ -1,6 +1,6 @@
-path: /DeepLearningProject/
-train: /DeepLearningProject/images_train
-val: /DeepLearningProject/images_val
+path: ../DeepLearningProject/
+train: ../DeepLearningProject/Label_images/images_train
+val: ../DeepLearningProject/Label_images/images_val
 
 names:
     0: fishSmall
