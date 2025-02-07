@@ -1,0 +1,12 @@
+path: /DeepLearningProject/
+train: /DeepLearningProject/images_train
+val: /DeepLearningProject/images_val
+
+names:
+    0: fishSmall
+    1: fishRound
+    2: fishLarge
+    3: shark
+    4: turtle
+    5: whale
+    6: dolphin
