@@ -1,0 +1,33 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "fishLarge"
+    },
+    {
+      "id": 1,
+      "name": "fishRound"
+    },
+    {
+      "id": 2,
+      "name": "fishSmall"
+    },
+    {
+      "id": 3,
+      "name": "plant"
+    },
+    {
+      "id": 4,
+      "name": "shark"
+    },
+    {
+      "id": 5,
+      "name": "turtle"
+    }
+  ],
+  "info": {
+    "year": 2025,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}
