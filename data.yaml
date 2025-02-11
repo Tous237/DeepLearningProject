@@ -1,0 +1,12 @@
+train: /content/drive/MyDrive/Project_NN_N7/datasets/images/train
+val: /content/drive/MyDrive/Project_NN_N7/datasets/images/val
+
+names: 
+    0: dolphin
+    1: fishLarge
+    2: fishRound
+    3: fishSmall
+    4: shark
+    5: turtle
+    6: whale
+
