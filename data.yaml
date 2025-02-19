@@ -1,5 +1,5 @@
-train: /content/drive/MyDrive/Project_NN_N7/datasets/images/train
-val: /content/drive/MyDrive/Project_NN_N7/datasets/images/val
+train: /content/DeepLearningProject/train/images
+val: /content/DeepLearningProject/val/images
 
 names: 
     0: dolphin
