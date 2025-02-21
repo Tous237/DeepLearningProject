@@ -27,8 +27,8 @@ augmentation:
   copy_paste: 0.3 #Pour les classes rares
   
 # Configuration pour les classes sous_représentées
-class_weights: #Poids plus élevés pour les classes sous-représentées
-  0: 2.0 # dolphin
-  1: 2.0 # shark
-  5: 2.0 # turtle
-  6: 2.0 # whale
+#class_weights: Poids plus élevés pour les classes sous-représentées
+#  0: 2.0 # dolphin
+#  1: 2.0 # shark
+#  5: 2.0 # turtle
+#  6: 2.0 # whale
