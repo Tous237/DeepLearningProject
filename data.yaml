@@ -16,11 +16,19 @@ augmentation:
   hsv_s: 0.7    # Saturation
   hsv_v: 0.4    # Valeur
   degrees: 0.0  # Rotation
-  translate: 0.1  # Translation
-  scale: 0.5    # Mise à l'échelle
+  translate: 0.2  # Translation
+  scale: 0.6    # Mise à l'échelle
   shear: 0.0    # Cisaillement
   perspective: 0.0  # Perspective
-  flipud: 0.0   # Retournement vertical
+  flipud: 0.3   # Retournement vertical
   fliplr: 0.5   # Retournement horizontal
   mosaic: 1.0   # Mosaïque (très utile pour les petites classes)
-  mixup: 0.0    # Mixup
+  mixup: 0.2    # Mixup pour de la diversité
+  copy_paste: 0.3 #Pour les classes rares
+  
+# Configuration pour les classes sous_représentées
+class_weights: #Poids plus élevés pour les classes sous-représentées
+  0: 2.0 # dolphin
+  1: 2.0 # shark
+  5: 2.0 # turtle
+  6: 2.0 # whale
