@@ -10,3 +10,17 @@ names:
     5: turtle
     6: whale
 
+# Augmentation de données spécifique
+augmentation:
+  hsv_h: 0.015  # Teinte
+  hsv_s: 0.7    # Saturation
+  hsv_v: 0.4    # Valeur
+  degrees: 0.0  # Rotation
+  translate: 0.1  # Translation
+  scale: 0.5    # Mise à l'échelle
+  shear: 0.0    # Cisaillement
+  perspective: 0.0  # Perspective
+  flipud: 0.0   # Retournement vertical
+  fliplr: 0.5   # Retournement horizontal
+  mosaic: 1.0   # Mosaïque (très utile pour les petites classes)
+  mixup: 0.0    # Mixup
